@@ -68,32 +68,32 @@ body {margin-top: 0px;margin-left: 0px;}
 <BODY>
 <DIV id="page_1">
 <DIV id="p1dimg1">
-<IMG src="https://www.nsb.no/_public/theme-nsb/dist/images/favicons/apple-touch-icon-180x180.png?_ts=16676f28428" id="p1img1"></DIV>
+<IMG src="https://www.nsb.no/_public/theme-nsb/dist/images/favicons/apple-touch-icon-180x180.png?_ts=16676f28428" id="p1img1" alt="NSB logo"></DIV>
 
 
 <DIV class="dclr"></DIV>
-<P id="p0 ft0">Elektronisk salgskvittering</P>
-<P id="p1 ft1">Din referanse AAAAAAAA</P>
-<P id="p2 ft2">Ruter Sone 2V</P>
-<P id="p1 ft3">7. februar 2019 15:46 - 15:58</P>
+<P class="p0 ft0">Elektronisk salgskvittering</P>
+<P class="p1 ft1">Din referanse <label id="reference_header">AAAAAAAA</label></P>
+<P class="p2 ft2"><label id="rout_desc">Ruter Sone 2V</label></P>
+<P class="p1 ft3"><label id="route_datetime">7. februar 2019 15:46 - 15:58</label></P>
 <TABLE cellpadding=0 cellspacing=0 class="t0">
 <TR>
-	<TD class="tr0 td0"><P class="p3 ft4">Ruter Enkeltbillett Voksen</P></TD>
-	<TD class="tr0 td1"><P class="p4 ft4">12,00 %</P></TD>
-	<TD class="tr0 td2"><P class="p5 ft4">59,00</P></TD>
+	<TD class="tr0 td0"><P class="p3 ft4"><label id="ticket_type">Ruter Enkeltbillett Voksen</label></P></TD>
+	<TD class="tr0 td1"><P class="p4 ft4"><label id="ticket_mva">12,00 %</label></P></TD>
+	<TD class="tr0 td2"><P class="p5 ft4"><label id="ticket_price">59,00</label></P></TD>
 </TR>
 <TR>
-	<TD class="tr1 td0"><P class="p6 ft1">Mva: 12,00 % Gr.lag: 52,68</P></TD>
-	<TD class="tr1 td1"><P class="p7 ft1">Kr 6,32</P></TD>
+	<TD class="tr1 td0"><P class="p6 ft1"><label id="ticket_mva_detailed">Mva: 12,00 % Gr.lag: 52,68</label></P></TD>
+	<TD class="tr1 td1"><P class="p7 ft1"><label id="ticket_mva_cost">Kr 6,32</label></P></TD>
 	<TD class="tr1 td2"><P class="p6 ft5">&nbsp;</P></TD>
 </TR>
 </TABLE>
-<P class="p8 ft1">Kjøpsdato: 07.02.2019</P>
-<P class="p8 ft1">Betalt med: MASTERCARD (***0000)</P>
+<P class="p8 ft1">Kjøpsdato: <label id="paid_date">07.02.2019</label></P>
+<P class="p8 ft1">Betalt med: <label id="paid_with">MASTERCARD (***0000)</label></P>
 <TABLE cellpadding=0 cellspacing=0 class="t1">
 <TR>
 	<TD rowspan=2 class="tr1 td3"><P class="p6 ft6">Denne salgskvitteringen er ikke gyldig som billett</P></TD>
-	<TD class="tr2 td4"><P class="p6 ft1">Totalpris 59,00</P></TD>
+	<TD class="tr2 td4"><P class="p6 ft1">Totalpris <label id="total_price">59,00</label></P></TD>
 </TR>
 <TR>
 	<TD class="tr3 td4"><P class="p6 ft7">&nbsp;</P></TD>
@@ -115,8 +115,8 @@ body {margin-top: 0px;margin-left: 0px;}
 <P class="p8 ft1">Sendt på vegne av www.entur.org/transportorer</P>
 <TABLE cellpadding=0 cellspacing=0 class="t2">
 <TR>
-	<TD class="tr2 td7"><P class="p6 ft4">Ditt kundenummer: DDDDDDD</P></TD>
-	<TD class="tr2 td8"><P class="p6 ft9">Din referanse: AAAAAAAA</P></TD>
+	<TD class="tr2 td7"><P class="p6 ft4">Ditt kundenummer: <label id="customer_id">DDDDDDD</label></P></TD>
+	<TD class="tr2 td8"><P class="p6 ft9">Din referanse: <label id="reference_footer">AAAAAAAA</label></P></TD>
 </TR>
 </TABLE>
 </DIV>
